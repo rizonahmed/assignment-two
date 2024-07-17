@@ -13,15 +13,13 @@ color: whitesmoke;
     
 } 
 .header{
-    max-width: 70%;
-    max-width: 70%;
-    margin: auto;
-     
+    max-width: 75%;
+    margin: auto; 
 }
+
 .orng{
     background-color: #E6533C;
-    font-weight: 600;
-    
+    font-weight: 600;   
 }
 
 .navbar{
@@ -48,7 +46,6 @@ color: whitesmoke;
     display: flex;
     justify-content: space-around;
     gap: 1rem;
-  
 }
 
 .btn>ul>li{
@@ -66,7 +63,6 @@ color: whitesmoke;
 .menu{
     display: none;
 }
-
 
 .banner{
     display: flex;
@@ -148,7 +144,6 @@ top: 20%;
     color: #a8a1a1;
 }
 
- 
 .pong{ 
     background-color:  rgba(59, 59, 59, 0.384);
     text-align: center;
@@ -176,14 +171,50 @@ top: 20%;
 .pong>p{
     background: transparent;
     font-size: .8rem;
-    color:rgba(255, 255, 255, 0.582);
-     
+    color:rgba(255, 255, 255, 0.582);  
 } 
 
+.change{
+    max-width: 75%;
+    margin: 3rem auto;
+    margin-top: 8rem;
+    text-align: center;
+}
+.change>h1{
+    font-size:2.9rem ;
+    font-weight: 900;
+    padding-bottom: 1rem;
 
+}
+.change>p{
+font-size: .9rem;
+max-width: 40%;
+margin: auto;
+line-height: 1.5rem;
+padding-bottom: 5rem;
+color: #858585;
 
+}
 
-
+.habits{
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 1rem;
+}
+.practice>img{
+    max-width: 100%;
+    border-radius: 50%;
+    border: solid .1px rgb(182, 179, 179);
+}
+.practice>h4{
+    padding-top: 1.5rem;
+}
+.practice>p{
+    font-size: .8rem;
+    padding-top: 1rem;
+    color: #797676;
+}
 
 
 
