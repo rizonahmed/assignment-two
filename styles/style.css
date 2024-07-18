@@ -265,13 +265,58 @@ color: #8b8b8b;
     border-radius:2.5rem;
  }
 
+.training{
+    max-width: 75%;
+    margin: 5rem auto;
+}
+.training>h1{
+    font-size: 2.3rem;
+    font-weight: 900;
+    padding-bottom: 1rem;
+}
+.training>p{
+    font-size: .8rem ;
+    color: #9b9b9b;
+    max-width: 40%;
+    padding-bottom: 4rem;
+}
 
+.photo-gridd{
+    display: grid;
+    grid-template-columns: .85fr 1.2fr .95fr;
+   max-width: 100%;
+     
+}
+.grid-photo{
+    display: grid;
+    grid-template-columns: 1.25fr .9fr 1.1fr;
+   max-width: 100%;
+}
+.one{
+    max-width: 100%;
+}
+.one>img{
+    max-width: 100%;
+    height: 20rem;
+}
 
-
-
-
-
-
+ .bmi{
+    max-width: 75%;
+    margin: 5rem auto;
+     
+ }
+.bmi>h1{
+padding-left: 15rem;
+font-size: 2.6rem;
+font-weight: 900;
+padding-bottom: 1rem;
+}
+.bmi>p{
+    padding-left: 15rem;
+    font-size: .9rem;
+    color: #8a8989;
+    max-width: 60%;
+}
 
 
 
