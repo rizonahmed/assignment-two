@@ -6,12 +6,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+} 
+body{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
 background-color: #000000;
 color: whitesmoke;
-    
-} 
+
+}
 .header{
     max-width: 75%;
     margin: auto; 
@@ -57,6 +60,7 @@ color: whitesmoke;
     text-decoration: none;
   padding:.3rem 1rem;
   border-radius: 2rem;
+  color: white;
 
 }
 
@@ -95,11 +99,12 @@ color: whitesmoke;
 .design{
     margin-right: 1rem;
     padding: .9rem 2.5rem ;
+    border: solid 1px rgb(18, 18, 19);
+    background-color: #E6533C;
     border-radius: 2rem;
     font-size: 1rem;
     outline: none;
     cursor: pointer;
-    background-color: #E6533C;
 }
 .simple{
     margin-right: 1rem;
@@ -201,6 +206,7 @@ color: #858585;
      justify-content: space-between;
      align-items: center;
      gap: 1rem;
+     margin-bottom: 8rem;
 }
 .practice>img{
     max-width: 100%;
@@ -216,11 +222,48 @@ color: #858585;
     color: #797676;
 }
 
+ .run{
+    max-width: 75%;
+     height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+background-color:rgb(34, 34, 34);
+border-radius: 1rem;
+ }
+ .body-content{
+    padding: 4rem ;
+ }
+ .body-content>h1{
+    font-size: 2.7rem;
+    font-weight: 900;
+    padding-bottom: 1rem;
+ }
+.body-content>p{
+font-size: .9rem;
+max-width: 50%;
+padding-bottom: 3rem;
+color: #8b8b8b;
+
+}
+.body-content>button{
+    padding:.9rem 4rem;
+    border-radius: 2rem;
+    background-color: #E6533C;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
 
 
-
-
-
+ .body-photo{
+    max-width: 100%;
+ }
+ .body-photo>img{
+    /* max-width:100% ; */
+    padding:1.5rem;
+    border-radius:2.5rem;
+ }
 
 
 
