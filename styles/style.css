@@ -543,3 +543,91 @@ option{
  }
 
  /* Bmi section end here */
+
+ 
+/* uniqe challange section start here */
+
+.uniqe{
+    
+    background-color:  #444242;
+    backdrop-filter: blur(10px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    margin: 5rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transition: 2s; */
+}
+
+.left-side>h1{
+font-size: 2.5rem;
+font-family: "Satisfy" ;
+padding-bottom: .8rem;
+}
+.left-side>p{
+    font-style: italic;
+    font-family: cursive;
+    padding-bottom: 1.8rem;
+}
+ 
+.left-side>button{
+    padding: .9rem 3rem;
+    font-size: 1.2rem;
+    background-color:  #E6533C;
+    backdrop-filter: blur(5px);
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    margin-left: 3rem;
+    cursor: pointer;
+}
+
+
+.middle-side{
+    max-width: 100%;
+}
+.middle-side>img{
+    /* max-width: 100%; */
+    padding: 1.5rem;
+    border-radius: 3.5rem;
+}
+
+.right-side>h1{
+    font-size: 2.5rem;
+    font-family: "Satisfy" ;
+    padding-bottom: .8rem;
+    }
+    
+    .right-side>p{
+        font-style: italic;
+        font-family: cursive;
+        padding-bottom: 1.8rem;
+    }   
+    .right-side>button{
+        margin-left: 3rem;
+        padding: .9rem 3rem;
+        font-size: 1.2rem;
+        background-color:  #E6533C;
+        backdrop-filter: blur(5px);
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+    }
+
+    .uniqe:hover{
+        cursor: grab;
+
+    }
+
+    .right-side>button:hover , .left-side>button:hover{
+        background-color: rgb(19, 18, 18);
+        color: rgba(255, 153, 0, 0.863);
+        font-weight: 700;
+    }
+    /* uniqe challange section end here */
