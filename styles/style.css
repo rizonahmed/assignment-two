@@ -15,9 +15,13 @@ background-color: #000000;
 color: whitesmoke;
 
 }
+
+/* header section start here  */
+
 .header{
     max-width: 75%;
     margin: auto; 
+ 
 }
 
 .orng{
@@ -34,8 +38,8 @@ color: whitesmoke;
 }
 
 .fitness>h2{
-    font-size: 1.7rem;
-    font-weight: 700;
+    font-size: 2.3rem;
+    font-weight: 800;
     font-style: italic;
     color: #E6533C;
 }
@@ -63,14 +67,24 @@ color: whitesmoke;
   color: white;
 
 }
+.btn>ul>li>a:hover{
+    background-color: #ffffff3a;
+    color: cadetblue;
+    font-weight: 900;
+}
+
+
+
 
 .menu{
     display: none;
 }
+ 
 
 .banner{
     display: flex;
     justify-content: space-between;
+ 
 }
 .header-content{
     padding: 3rem 0;
@@ -179,6 +193,11 @@ top: 20%;
     color:rgba(255, 255, 255, 0.582);  
 } 
 
+/* header section end here  */
+
+/* main section start here  */
+
+/* <!-- change section start here  --> */
 .change{
     max-width: 75%;
     margin: 3rem auto;
@@ -222,6 +241,10 @@ color: #858585;
     color: #797676;
 }
 
+/* <!-- change section end here  --> */
+
+
+/* extra section start here */
  .run{
     max-width: 75%;
      height: auto;
@@ -264,7 +287,10 @@ color: #8b8b8b;
     padding:1.5rem;
     border-radius:2.5rem;
  }
+ /* extra section start here */
 
+
+ /* trainings and exercises section start here */
 .training{
     max-width: 75%;
     margin: 5rem auto;
@@ -291,16 +317,106 @@ color: #8b8b8b;
     display: grid;
     grid-template-columns: 1.25fr .9fr 1.1fr;
    max-width: 100%;
+   margin-top: -.2rem;
 }
 .one{
     max-width: 100%;
-}
+    position: relative;
+ }
 .one>img{
+    max-width: 100%;
+    height: 20rem;
+  
+}
+
+
+.two{
+    max-width: 100%;
+    position: relative;
+}
+.two>img{
     max-width: 100%;
     height: 20rem;
 }
 
- .bmi{
+
+.three{
+    max-width: 100%;
+    position: relative;
+}
+.three>img{
+    max-width: 100%;
+    height: 20rem;
+}
+
+.four{
+    max-width: 100%;
+    position: relative;
+}
+.four>img{
+    max-width: 100%;
+    height: 20rem;
+}
+
+.five{
+    max-width: 100%;
+    position: relative;
+}
+.five>img{
+    max-width: 100%;
+    height: 20rem;
+}
+
+.six{
+    position: relative;
+    max-width: 100%;
+}
+.six>img{
+    max-width: 100%;
+    height: 20rem;
+}
+
+.one>p{
+    position: absolute;
+    bottom: 20%;
+    left: 15%;
+
+}
+.two>p{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+
+}
+.three>p{
+    position: absolute;
+    bottom: 20%;
+    left: 15%;
+
+}
+.four>p{
+    position: absolute;
+    top: 20%;
+    right: 15%;
+
+}
+.five>p{
+    position: absolute;
+    bottom: 20%;
+    left: 15%;
+
+}
+.six>p{
+    position: absolute;
+    bottom: 20%;
+    left: 15%;
+
+}
+/* trainings and exercises section end here */
+
+
+/* Bmi section start here */
+.bmi{
     max-width: 75%;
     margin: 5rem auto;
      
@@ -320,14 +436,110 @@ padding-bottom: 1rem;
 
 
 
+.chart{
+    background-color: #222222;
+    height: auto;
+}
+.part{
+    max-width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.table{
+    padding: 4rem 0;
+} 
 
+.table>table{
+    border-collapse: collapse;
+    text-align: left;
+}
+.table>table>caption{
+    font-size: 2rem;
+    font-weight: 700;
+    width: 100%;
+    padding-bottom: 4rem;
+}
 
+.table th,td{
+    border: solid 1px #535252;
+    padding: 1rem 2rem;
+    
+}
+.table td{
+    font-weight: 300;
+    color: #b1afaf;
+    font-size: 1rem;
+}
+.table th{
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-weight: 700;
+}
+ 
+.calculator{
+    padding-top: 3rem;
+    padding-left: 5rem;
+     
+} 
+.calculator>h2{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.calculator>p{
+    font-size: 1rem;
+    max-width: 90%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    color: #8b8b8b;
+    line-height: 1.5rem;
 
+}
 
+input {
+    max-width: 100%;
+    padding: 1rem 5rem;
+    border-radius: .8rem;
+   margin: .5rem auto;
+   background-color: #4b4a4a50;
+   color: rgb(255, 255, 255);
+   font-weight: 400;
+   font-size: 1.1rem;
+   border: none;
+   outline: none;
+text-align: left;
+}
+select{
+padding: .9rem 7.8rem;
+border-radius: .6rem;
+background-color: #4b4a4a50;
+color: rgba(170, 165, 165, 0.466);
+font-weight:normal;
+font-size: 1.2rem;
+border: none;
+outline: none;
+}
+.fact{
+ padding: .5rem 0;
 
+} 
+.fact>select{
+   padding: 1rem 16.7rem;
+}
 
+option{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 136, 0);
+}
+ 
+ .disting>input{
+    background-color: #E6533C;
+    padding: 1.3rem 5.5rem;
+    border-radius: 100px;
+    margin-bottom: 3rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+ }
 
-
-
-
-
+ /* Bmi section end here */

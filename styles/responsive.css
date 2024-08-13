@@ -1,0 +1,424 @@
+@media screen and (max-width:576px) {
+   
+    .header{
+        max-width: 90%;
+    }
+    .btn{
+        display: none;
+    }
+    .fitness>h2{
+        font-size: 3rem;
+        font-weight: 900;
+    }
+
+    .menu{
+        display: block;
+    }
+     .menu>a{
+        font-size: 2rem;
+        color: whitesmoke;
+     }
+     .menu>a>i{
+        color: whitesmoke;
+     }
+
+.banner{
+    flex-direction: column;
+}
+.pong{
+    left: -10%;
+    bottom: 38%;
+    
+
+
+}
+
+
+
+.header-content{
+    padding: 2rem 0;
+}
+ 
+
+.header-content>h1{
+    font-size: 3rem;
+}
+.header-content>h1>span{
+    font-size:3rem;
+    
+}
+
+.header-content>P{
+    max-width: 80%;
+    font-size: 1.1rem;
+    word-spacing: 2px;
+    line-height: 1.5rem;
+
+}
+.simple{
+    padding: 1.4rem 1.5rem ;
+    border-radius: 3rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-right: 0;
+}
+.design{
+    padding: 1.4rem 1.5rem ;
+    border-radius: 3rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.header-photo{
+    margin: auto;
+}
+
+.change{
+    margin-top: 2rem;
+}
+.change>h1{
+    font-size:2.4rem ;
+}
+.change>p{
+    font-size: 1.3rem;
+max-width: 90%;
+padding-bottom: 3rem;
+}
+.habits{
+    flex-direction: column;
+}
+.practice>h4{
+    font-size: 1.5rem;
+     
+}
+.practice>p{
+    font-size: 1.3rem;
+    padding-top: 1rem;
+    color: #797676;
+    padding-bottom: 2.5rem;
+}
+
+
+.run{
+flex-direction: column;
+margin-top: -4rem;
+max-width:90% ;
+
+}
+.body-content>p{
+    font-size: 1.1rem;
+    max-width: 100%;
+    padding-bottom: 2rem;
+    line-height: 2rem;
+    
+    }
+
+    .body-content>button{
+        padding:1.2rem 8rem;
+        font-size: 1.6rem;
+        color: aliceblue; 
+    }
+    .body-photo{
+        max-width: 85%;
+        margin: auto;
+    }
+
+    .body-photo>img{
+        max-width:100% ;
+     margin-top: -3rem;
+     }
+     .training{
+        max-width: 90%;
+        margin: 5rem auto;
+    }
+
+    .training>h1{
+        font-size: 3rem ;
+    }
+    .training>p{
+        font-size: 1.1rem ;
+        max-width: 90%;
+        line-height: 1.9rem ;
+         
+    }
+
+    .photo-gridd{
+        grid-template-columns:1fr 1fr;
+    }
+
+    .grid-photo{
+        grid-template-columns: .85fr 1.15fr;
+    }
+
+.three{
+    display: none;
+}
+.six{
+    display: none;
+}
+
+.one>img{
+    height: 12rem;
+}
+
+.two>img{
+    height: 12rem;
+}
+.four>img{
+    height: 12rem;
+}
+
+.five>img{
+    height: 12rem;
+    object-fit: cover;
+}
+
+.one>p, .two>p, .four>p , .five>p{
+font-size: 1.2rem;
+}
+
+.four>p{
+right: 40%;
+top: 70%;
+}
+
+
+
+
+
+
+
+
+ .bmi{
+    max-width: 90%;
+    margin: ;
+     
+ }
+ .bmi>h1{
+    padding-left:0;
+    font-size: 2.8rem;
+    font-weight: 900;
+    padding-bottom: 1rem;
+    }
+
+    .bmi>p{
+        padding-left:0;
+        font-size: 1.1rem;
+        line-height: 1.8rem ;
+        color: #8a8989;
+        max-width: 90%;
+    }
+
+    .part{
+        max-width: 90%;
+        flex-direction: column;
+        
+    }
+    .table>table>caption{
+        font-size: 1.5rem;
+        font-weight: 700;
+        width: 100%;
+        padding-bottom: 2rem;
+       margin-left: -4.4rem;
+    }
+    .calculator{
+        padding-top:0;
+        padding-left: 0;
+         
+    } 
+    
+    .calculator>h2{
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+
+    .calculator>p{
+        font-size: 1.1rem;
+        line-height: 1.9rem;
+    }
+
+    input {
+        max-width: 100%;
+        padding: 1.6rem .2rem;
+ 
+       margin: .5rem auto;
+       margin-right: .7rem;
+       background-color: #4b4a4a50;
+       color: rgb(255, 255, 255);
+       font-weight: 400;
+        line-height: 1rem;
+    text-align: center;
+    
+    }
+
+    select{
+        padding: 1.5rem 2.6rem;
+        font-size: 1.3rem;
+        }
+
+        .fact>select{
+            padding: 1.5rem 6.8rem;
+         }
+
+         .disting>input{
+            padding: 1.8rem 6.5rem;
+            margin-top: 1rem;
+            font-size: 1.5rem;
+         }
+
+
+
+         .uniqe{
+            text-align: center;
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+            margin: 5rem auto;
+            flex-direction: column;
+            
+        }
+
+.left-side>button{
+    margin-left: 0;
+
+}
+
+.right-side>button{
+    margin-left: 0;
+}
+
+
+
+.team>h1{
+    font-size: 2.8rem;
+}
+.team>p{
+    margin: auto;
+    max-width: 100%;
+font-size: 1.2rem;
+line-height: 1.9rem;
+color: rgb(137, 137, 138);
+padding-bottom: 3rem;
+}
+ 
+.bell{
+    display: none;
+}
+.fell{
+    display: none;
+}
+
+
+.pagol-hoilam{
+    max-width: 90%;
+    background-color: #3f3f3f;
+}
+
+.all-trainer{
+max-width: 90%;
+grid-template-columns: 1fr;
+gap: 1.5rem;
+ 
+}
+
+.dell{
+    max-width: 100%;
+    height: 24rem;
+    position: relative;
+ }
+.dell>img{
+ width: 100%;
+ height: 24rem;
+    border-radius: 1rem;
+    margin-left: 1.5rem;
+    object-fit: cover;
+}  
+
+.next-pic{
+    max-width: 90%;
+display: grid;
+grid-template-columns: 1fr;
+padding: 1.5rem 0 ;
+gap: .5rem;
+margin-top: -1.5rem;
+}
+
+.grell {
+    height: 25rem;
+   margin-left: 1.5rem;
+ 
+   }
+.grell>img{
+   object-fit: cover;
+}
+
+.hell{
+    width: 100%;
+    position: relative;
+    
+       }
+    .hell>img{
+       width: 100%;
+       margin-left: 1.5rem;
+       object-fit: cover;
+    } 
+
+
+
+
+
+
+
+
+
+
+.parent{
+    max-width: 90%;
+    flex-direction: column;
+
+}
+
+.son-one>h1{
+    font-size: 5rem;
+ 
+}
+.son-one>p{
+    font-size: 1.2rem;
+    color: #9e9d9d;
+    line-height: 1.9rem;
+}
+    .son-two  , .son-three{
+        margin: 0;
+    }
+
+    .son-two>h2  , .son-three>h2{
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+
+    .son-two>ul>li , .son-three>ul>li {
+        list-style: none;
+        line-height: 2.5rem;
+        font-size: 1.6rem;
+        font-weight: 300;
+        color: #d8d5d5af;
+        cursor: pointer;
+        padding-bottom: .8rem;
+    }
+
+hr{
+    max-width: 90%;
+    margin-top: 2rem;
+}
+
+.reserved>p{
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 300;
+    color: #c0bec0;
+    line-height: 2.5rem;
+}
+
+
+
+}
+ 
