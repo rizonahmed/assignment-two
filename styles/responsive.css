@@ -25,13 +25,23 @@
 .banner{
     flex-direction: column;
 }
+
+
+
+
 .pong{
+
+
+
     left: -10%;
-    bottom: 38%;
-    
-
-
+bottom: 38%;
 }
+
+
+
+
+
+
 
 
 
@@ -40,12 +50,14 @@
 }
  
 
+
 .header-content>h1{
     font-size: 3rem;
 }
+
 .header-content>h1>span{
-    font-size:3rem;
-    
+   font-size:3rem; 
+   
 }
 
 .header-content>P{
@@ -139,7 +151,7 @@ max-width:90% ;
         font-size: 1.1rem ;
         max-width: 90%;
         line-height: 1.9rem ;
-         
+
     }
 
     .photo-gridd{
@@ -182,16 +194,9 @@ right: 40%;
 top: 70%;
 }
 
-
-
-
-
-
-
-
  .bmi{
     max-width: 90%;
-    margin: ;
+ 
      
  }
  .bmi>h1{
@@ -266,15 +271,12 @@ top: 70%;
             font-size: 1.5rem;
          }
 
-
-
          .uniqe{
             text-align: center;
             padding-top: 3rem;
             padding-bottom: 3rem;
             margin: 5rem auto;
             flex-direction: column;
-            
         }
 
 .left-side>button{
@@ -285,8 +287,6 @@ top: 70%;
 .right-side>button{
     margin-left: 0;
 }
-
-
 
 .team>h1{
     font-size: 2.8rem;
@@ -306,7 +306,6 @@ padding-bottom: 3rem;
 .fell{
     display: none;
 }
-
 
 .pagol-hoilam{
     max-width: 90%;
@@ -362,16 +361,7 @@ margin-top: -1.5rem;
        object-fit: cover;
     } 
 
-
-
-
-
-
-
-
-
-
-.parent{
+  .parent{
     max-width: 90%;
     flex-direction: column;
 
