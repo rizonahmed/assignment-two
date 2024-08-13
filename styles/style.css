@@ -17,11 +17,16 @@ color: whitesmoke;
 }
 
 /* header section start here  */
+.bgclr{
+
+    background: linear-gradient(0.00deg, rgb(48, 47, 47),rgba(146, 145, 145, 0) 100%);
+    
+}
 
 .header{
     max-width: 75%;
     margin: auto; 
- 
+
 }
 
 .orng{

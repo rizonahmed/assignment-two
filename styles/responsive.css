@@ -1,7 +1,12 @@
 @media screen and (max-width:576px) {
    
+    .bgclr{
+
+        background: none
+    }
     .header{
         max-width: 90%;
+        
     }
     .btn{
         display: none;
@@ -24,6 +29,7 @@
 
 .banner{
     flex-direction: column;
+    
 }
 
 
@@ -68,14 +74,14 @@ bottom: 38%;
 
 }
 .simple{
-    padding: 1.4rem 1.5rem ;
+    padding: 1.3rem 1.1rem ;
     border-radius: 3rem;
     font-size: 1.4rem;
     font-weight: 500;
     margin-right: 0;
 }
 .design{
-    padding: 1.4rem 1.5rem ;
+    padding: 1.4rem 1.1rem ;
     border-radius: 3rem;
     font-size: 1.4rem;
     font-weight: 500;
@@ -115,6 +121,7 @@ padding-bottom: 3rem;
 flex-direction: column;
 margin-top: -4rem;
 max-width:90% ;
+ 
 
 }
 .body-content>p{
@@ -254,7 +261,7 @@ top: 70%;
 
     input {
         max-width: 100%;
-        padding: 1.6rem .2rem;
+        padding: 1.6rem 0;
  
        margin: .5rem auto;
        margin-right: .7rem;
@@ -267,12 +274,14 @@ top: 70%;
     }
 
     select{
-        padding: 1.5rem 2.6rem;
+        padding: 1.4rem 8%;
         font-size: 1.3rem;
+
         }
 
         .fact>select{
-            padding: 1.5rem 6.8rem;
+            padding: 1.5rem 20.5%;
+ 
          }
 
          .disting>input{
@@ -292,6 +301,10 @@ top: 70%;
 
 
         }
+        .middle-side>img{
+            max-width: 100%;
+        }
+        
 
 .left-side>button{
     margin-left: 0;
@@ -391,7 +404,7 @@ margin-top: -1.5rem;
 
 
   .parent{
-    max-width: 90%
+    max-width: 90%;
     flex-direction: column;
 
 }
