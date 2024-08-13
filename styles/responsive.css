@@ -194,11 +194,21 @@ right: 40%;
 top: 70%;
 }
 
- .bmi{
-    max-width: 90%;
+
  
-     
+.bmi{
+    max-width: 90%;
+
+    
+
+
+
+
+
  }
+
+
+
  .bmi>h1{
     padding-left:0;
     font-size: 2.8rem;
@@ -271,12 +281,16 @@ top: 70%;
             font-size: 1.5rem;
          }
 
+
+
          .uniqe{
             text-align: center;
             padding-top: 3rem;
             padding-bottom: 3rem;
             margin: 5rem auto;
             flex-direction: column;
+
+
         }
 
 .left-side>button{
@@ -287,6 +301,8 @@ top: 70%;
 .right-side>button{
     margin-left: 0;
 }
+
+
 
 .team>h1{
     font-size: 2.8rem;
@@ -306,6 +322,8 @@ padding-bottom: 3rem;
 .fell{
     display: none;
 }
+
+
 
 .pagol-hoilam{
     max-width: 90%;
@@ -355,14 +373,25 @@ margin-top: -1.5rem;
     position: relative;
     
        }
+
     .hell>img{
        width: 100%;
+
        margin-left: 1.5rem;
        object-fit: cover;
     } 
 
+
+
+
+
+
+
+
+
+
   .parent{
-    max-width: 90%;
+    max-width: 90%
     flex-direction: column;
 
 }
